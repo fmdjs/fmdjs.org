@@ -153,9 +153,10 @@ aside h1 a:visited{
 }
 
 article{
-    margin-left: 370px;
-    padding: 20px 40px 80px;
-    max-width: 800px;
+    margin-left: 376px;
+    padding: 20px 80px 80px 40px;
+    max-width: 860px;
+    min-width: 400px;
     line-height: 2;
 }
 article h1{
