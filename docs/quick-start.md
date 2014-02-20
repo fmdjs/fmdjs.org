@@ -80,4 +80,4 @@ fmd.js默认将模块级的报错吞掉，可以通过如下代码将模块错�
 
 ## 示例
 
-[hello world](/examples/hello-world/runner.html)
+[hello world同步](/examples/hello-world/sync.html)、[hello world异步](/examples/hello-world/async.html)
