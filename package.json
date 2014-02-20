@@ -1,0 +1,27 @@
+{
+    "name": "fmdjs.org",
+    "description": "the website for fmd.js",
+    "homepage": "http://fmdjs.org/",
+    "author": {
+        "name": "Edgar Hoo",
+        "email": "mail@edgar.im"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/fmdjs/fmdjs.org.git"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://www.opensource.org/licenses/mit-license.php"
+    }],
+    "keywords": ["FMD","module","fmd.js"],
+    "engines": {
+        "node": ">=0.8.0"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.0",
+        "grunt-markdown": "~0.4.0",
+        "grunt-contrib-copy": "~0.4.1"
+    },
+    "dependencies": {}
+}
