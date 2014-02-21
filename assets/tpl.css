@@ -2,6 +2,8 @@
  * for fmdjs.org
  */
 
+@import url(sh.css);
+
 @font-face{
     font-family: 'Inconsolata';
     src: url(http://assets.edgarhoo.net/fonts/Inconsolata.ttf);
