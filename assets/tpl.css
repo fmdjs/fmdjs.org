@@ -2,8 +2,6 @@
  * for fmdjs.org
  */
 
-@import url(sh.css);
-
 @font-face{
     font-family: 'Inconsolata';
     src: url(http://assets.edgarhoo.net/fonts/Inconsolata.ttf);
@@ -78,17 +76,6 @@ a:focus{
 
 iframe{
     border: 0 none;
-}
-
-
-pre.sh_sourceCode{
-    border-color: cornflowerblue;
-    padding-left: 12px;
-    font-size: 16px;
-    line-height: 1.5;
-}
-pre.sh_sourceCode.wrong{
-    border-color: #c00;
 }
 
 
@@ -193,4 +180,14 @@ article h3 code{
 }
 article table{
     margin: 1em 0;
+}
+
+article pre.sh_sourceCode{
+    border-color: cornflowerblue;
+    padding-left: 12px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+article pre.sh_sourceCode.wrong{
+    border-color: #c00;
 }
