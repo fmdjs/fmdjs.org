@@ -1,7 +1,7 @@
 /**
  * the Gruntfile for fmdjs.org
  * @author Edgar
- * @date 140218
+ * @date 140303
  * */
 
 module.exports = function( grunt ){
@@ -54,6 +54,14 @@ module.exports = function( grunt ){
                     src: ['*.*'],
                     dest: '../fmdjs/assets/'
                 }]
+            },
+            examples: {
+                files: [{
+                    expand: true,
+                    cwd: 'examples/',
+                    src: ['*/*.*'],
+                    dest: '../fmdjs/examples/'
+                }]
             }
         }
 
@@ -62,7 +70,7 @@ module.exports = function( grunt ){
     grunt.loadNpmTasks('grunt-markdown');
     grunt.loadNpmTasks('grunt-contrib-copy');
     
-    grunt.registerTask('assets',['copy']);
+    grunt.registerTask('aid',['copy']);
     grunt.registerTask('default', ['markdown']);
 
 };
