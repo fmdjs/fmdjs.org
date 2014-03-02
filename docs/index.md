@@ -14,8 +14,17 @@ fmd.js基本兼容AMD规范
 
 fmd.js本身由数个模块所组成，可以自由组装成需要的fmd.js
 
-这里只提供默认组合以供下载。插件相关的支持请参见[Plugins](/docs/plugins.html)
+这里只提供默认组合以供下载：
 
-包含异步加载的： [Development Version](/dist/fmd-debug.js)、[Production Version](/dist/fmd.js)
+* [Development Version](/dist/fmd-debug.js)
+* [Production Version](/dist/fmd.js)
 
-更多代码请参见[github仓库](https://github.com/fmdjs/fmdjs)
+插件相关的支持请参见[Plugins](/docs/plugins.html)。更多代码请参见[github仓库](https://github.com/fmdjs/fmdjs)
+
+或者：
+
+<pre class="sh_sh">
+bower isntall fmdjs
+</pre>
+
+进行下载
