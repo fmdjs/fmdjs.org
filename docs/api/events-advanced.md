@@ -2,7 +2,7 @@
 
 ## event 'saved'
 
-    fmd.on( 'define', function( mod ){
+    fmd.on( 'saved', function( mod ){
         //todo sth
     } );
 
