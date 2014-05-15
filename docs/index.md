@@ -24,7 +24,7 @@ fmd.js本身由数个模块所组成，可以自由组装成需要的fmd.js
 或者：
 
 <pre class="sh_sh">
-bower isntall fmdjs
+bower install fmdjs
 </pre>
 
 进行下载
