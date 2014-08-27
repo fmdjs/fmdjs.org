@@ -29,19 +29,19 @@ module.exports = function( grunt ){
                     expand: true,
                     cwd: 'docs/',
                     src: 'index.md',
-                    dest: '../fmdjs/',
+                    dest: '../fmd.js/',
                     ext: '.html'
                 },{
                     expand: true,
                     cwd: 'docs/',
                     src: ['*.md','!index.md'],
-                    dest: '../fmdjs/docs/',
+                    dest: '../fmd.js/docs/',
                     ext: '.html'
                 },{
                     expand: true,
                     cwd: 'docs/api/',
                     src: '*.md',
-                    dest: '../fmdjs/docs/api/',
+                    dest: '../fmd.js/docs/api/',
                     ext: '.html'
                 }]
             }
@@ -52,7 +52,7 @@ module.exports = function( grunt ){
                     expand: true,
                     cwd: 'assets/',
                     src: ['*.*'],
-                    dest: '../fmdjs/assets/'
+                    dest: '../fmd.js/assets/'
                 }]
             },
             examples: {
@@ -60,7 +60,7 @@ module.exports = function( grunt ){
                     expand: true,
                     cwd: 'examples/',
                     src: ['*/*.*'],
-                    dest: '../fmdjs/examples/'
+                    dest: '../fmd.js/examples/'
                 }]
             }
         }
