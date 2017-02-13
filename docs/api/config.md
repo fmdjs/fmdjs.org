@@ -99,9 +99,17 @@
         charset: 'gbk'
     });
 
+## hasCatch
+
+`hasCatch<boolean>`是布尔值，默认为`false`，其值为`true`时编译模块过程将被`try catch`
+
+    fmd.config({
+        hasCatch: true
+    });
+
 ## debug
 
-`debug<boolean>`是布尔值，其值为`true`时进入debug状态
+`debug<boolean>`是布尔值，默认为`false`，其值为`true`时进入debug状态
 
     fmd.config({
         debug: true

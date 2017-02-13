@@ -1,4 +1,4 @@
-# 关键模块exports
+# 内建模块exports
 
 `exports`是个对象，用来承载模块对外输出的接口
 
@@ -16,11 +16,11 @@ define( 'case/g', ['exports'], function( exports ){
 } );
 </pre>
 
-**关键模块exports是不能被覆盖的，不允许这么做**
+**内建模块exports是不能被覆盖的，不允许这么做**
 
 ## 用return返回接口
 
-除了使用关键模块exports来对外输出接口外，也可以使用`return`
+除了使用内建模块exports来对外输出接口外，也可以使用`return`
 
     define( 'case/h', function(){
         var foo = function(){};
@@ -28,3 +28,5 @@ define( 'case/g', ['exports'], function( exports ){
     } );
     
 这样模块也能返回非对象的接口类型，当然也可以返回对象
+
+**一般情况下，不允许内建模块exports和return同时使用**

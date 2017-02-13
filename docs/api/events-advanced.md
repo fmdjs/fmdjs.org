@@ -6,7 +6,7 @@
         //todo sth
     } );
 
-此事件发生在模块刚保存完时，`callback`的参数`mod`即是刚保存的mod对象。若是匿名模块，此时还未执行，将要执行
+此事件发生在模块刚保存完时，参数`mod`即是刚保存的mod对象。若是匿名模块，此时还未执行，将要执行
 
 ## event 'makeRequire'
 
@@ -14,7 +14,7 @@
         //todo sth
     } );
     
-此事件发生在某模块依赖关键模块require而生成关键模块require时，`callback`的参数`require`就是关键模块require对象
+此事件发生在某模块依赖内建模块require而生成关键模块require时，参数`require`就是内建模块require对象
 
 ## event 'request'
 

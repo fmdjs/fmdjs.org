@@ -1,10 +1,10 @@
-# 关键模块require
+# 内建模块require
 
 `require`是个函数，用来取得需要被依赖的模块的接口
 
 ## require( id )
 
-关键模块如同关键字一样，是内建的，不能被修改的。可以这样使用关键模块require：
+内建模块是不能被修改的。可以这样使用内建模块require：
     
     define( 'case/d', ['require'], function( require ){
         var a = require('case/a'),

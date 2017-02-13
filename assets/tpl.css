@@ -92,8 +92,8 @@ header nav{
     margin-top: 40px;
 }
 header nav ul{
-    list-style-position: inside;
-    padding-left: 0;
+    list-style-position: outside;
+    padding-left: 16px;
     color: lawngreen;
 }
 header nav a:link,
@@ -110,7 +110,7 @@ header p:nth-last-child(1){
 aside{
     position: fixed;
     height: 100%;
-    width: 200px;
+    width: 220px;
     padding-top: 34px;
     background: lavender;
     left: 176px;
@@ -125,11 +125,11 @@ aside h1{
     padding-left: 16px;
 }
 aside ul{
-    padding-left: 16px;
+    padding-left: 32px;
     list-style-type: square;
     color: green;
     line-height: 28px;
-    list-style-position: inside;
+    list-style-position: outside;
 }
 aside ul a:link,
 aside ul a:visited{

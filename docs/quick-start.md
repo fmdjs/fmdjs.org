@@ -56,28 +56,6 @@
 
 `require`模块也是fmd.js内建的模块，用来取得其他模块所提供的接口
 
-## 调试
-
-### 控制台打印消息
-
-可以通过打开debug配置：
-
-    fmd.config({
-        debug: true
-    });
-    
-使得`fmd.log`函数像`console.log`一样在控制台打印消息
-
-若当前浏览器不支持`console`，那么会加载fmd.js的`fmd/console`模块来模拟，需要下载[fmd/console](/dist/fmd/console.js)模块放置到合适目录，配置好resolve规则
-
-### 浏览器debug
-
-fmd.js默认将模块级的报错吞掉，可以通过如下代码将模块错误抛出
-
-    fmd.on( 'compileFailed', function( ex, mod ){
-        throw ex;
-    } );
-
 ## 示例
 
 [hello world同步](/examples/hello-world/sync.html)、[hello world异步](/examples/hello-world/async.html)
