@@ -17,7 +17,7 @@ fmd.js本身由数个模块所组成，可以自由组装成需要的fmd.js
 这里只提供默认组合以供下载：
 
 * [Development Version](/dist/fmd.js)
-* [Production Version](/dist/fmd-min.js)
+* [Production Version](/dist/fmd.min.js)
 
 插件相关的支持请参见[Plugins](/docs/plugins.html)。更多代码请参见[github仓库](https://github.com/fmdjs/fmdjs)
 
