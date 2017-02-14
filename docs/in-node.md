@@ -28,22 +28,13 @@
 
 ## 事件
 
-### id2uri
-
-与浏览器端的不同，在node端是最终通过`asset.uri`去require该模块的
-
-    fmd.on( 'id2uri', function( asset ){
-        //todo sth
-    } );
-
-此事件发生在id解析成uri后，参数asset有两个子对象，一为id，二为uri（完整uri）
-
-### 其他node端生效的事件
+在node端支持以下事件
 
 * [existed](/docs/api/events-basic.html#event-existed-)
 * [saved](/docs/api/events-advanced.html#event-saved-)
 * [makeRequire](/docs/api/events-advanced.html#event-makerequire-)
 * [alias](/docs/api/events-basic.html#event-alias-)
 * [resolve](/docs/api/events-basic.html#event-resolve-)
+* [id2url](/docs/api/events-basic.html#event-id2url-)
 * [compiled](/docs/api/events-basic.html#event-compiled-)
 * [compileFailed](/docs/api/events-basic.html#event-compilefailed-)
